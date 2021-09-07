@@ -157,11 +157,8 @@
     const sugar = new SugarMixer();
     const noSugar = new NoSugar();
 
-
-    //
     const sweetCandyMachine = new CoffeeMachine(12, noMilk, candySugar);
     const sweetMachine = new CoffeeMachine(12, noMilk, sugar); 
-
     const latteMacine = new CoffeeMachine(12, cheapMilkMaker, noSugar);
     const coldLatteMachine = new CoffeeMachine(12, coldMilkMaker, noSugar);
     const sweetLatteMacine = new  CoffeeMachine(
